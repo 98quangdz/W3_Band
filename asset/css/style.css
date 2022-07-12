@@ -224,7 +224,7 @@ html {
 #content .members-list {
     margin-top: 48px;
     margin-bottom: 32px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #content .member-item {
@@ -329,6 +329,7 @@ html {
 }
 .contact-content {
     margin-top: 48px;
+    justify-content: space-between;
 }
 .contact-info {
     line-height: 1.4;

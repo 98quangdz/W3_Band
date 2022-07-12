@@ -2,12 +2,20 @@
   #mobile-menu {
     display: none;
   }
-}
-@media (min-width: 740px) and (max-width:1023px) {
+  #content .member-item {
+    float:left;
+    width:calc(100%/3);
+    text-align: center;
+    }
     #content .content-section {
-        width: 100%;
         
     }
+}
+@media (min-width: 740px) and (max-width:1023px) {
+
+    #mobile-menu {
+        display: none;
+      }
     .row {
         margin-left: 8px;
         margin-right: 8px;
@@ -29,6 +37,12 @@
     .row {
         margin-left: 8px;
         margin-right: 8px;
+    }
+    #content .member-img {
+        /* width: 100%; */
+        margin-top: 15px;
+        width: 100%;
+        border-radius: 4px;
     }
 
 }
